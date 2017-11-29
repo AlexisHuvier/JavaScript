@@ -6,8 +6,6 @@ function test(args){
 
 var number;
 
-while(isNaN(number)){
-    number=parseInt(prompt("Entrez un nombre : "));
-}
+while(isNaN(number=parseInt(prompt("Entrez un nombre : ")))){};
 alert("Vous allez avoir "+number+" boucles");
 test(number);
